@@ -1,6 +1,6 @@
 {
   "name": "@szhsin/react-menu",
-  "version": "2.3.2",
+  "version": "2.3.2-rc",
   "description": "React component for building accessible menu, dropdown, submenu, context menu and more.",
   "author": "Zheng Song",
   "license": "MIT",
@@ -38,8 +38,8 @@
     "eg": "npm start --prefix example"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": ">=16.8.0 || ^18.0.0-rc",
+    "react-dom": ">=16.8.0 || ^18.0.0-rc"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
